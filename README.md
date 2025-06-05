@@ -1,5 +1,13 @@
 # 서울시 핫플레이스 분석 및 예측 프로젝트
 
+# 주요 파일
+- [`clustering.ipynb`](https://github.com/data-mining-8/hot-place/blob/main/clustering.ipynb) : 클러스터링 분석 코드
+- [`spvised_hp_pred.ipynb`](https://github.com/data-mining-8/hot-place/blob/main/spvised_hp_pred.ipynb) : 핫플레이스 예측 모델 개발 코드
+
+## 데이터 출처
+- 서울시 상권 데이터 : https://data.seoul.go.kr/dataList/OA-15547/S/1/datasetView.do
+- 서울시 유동인구 데이터 : https://data.seoul.go.kr/dataList/OA-15547/S/1/datasetView.do
+
 ## 📌 프로젝트 개요
 본 프로젝트는 서울시 상권 데이터를 활용하여 지역별 특성을 분석하고 핫플레이스를 예측하는 데이터마이닝 프로젝트입니다. 클러스터링 기법을 통한 지역 특성 분류와 머신러닝을 이용한 핫플레이스 예측 모델 개발을 수행하였습니다.
 
