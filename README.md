@@ -63,16 +63,21 @@
 
 ## 🗂️ 파일 구조
 
-hot-place/
+ hot-place/
+ <pre>
+<code>
 ├── data/
-│ ├── raw/ # 원본 데이터
-│ └── processed/ # 처리된 데이터
+│   ├── raw/                             # 원본 데이터
+│   └── processed/                       # 처리된 데이터
 ├── notebooks/
-│ ├── clustering.ipynb # 클러스터링 분석
-│ └── spvised_hp_pred.ipynb # 예측 모델 개발
+│   ├── clustering.ipynb                 # 클러스터링 분석
+│   └── spvised_hp_pred.ipynb           # 예측 모델 개발
 ├── results/
-│ ├── prediction_results.csv # 전체 예측 결과
-│ └── prediction_results_threshold_0.52.csv # 최종 필터링 결과
+│   ├── prediction_results.csv           # 전체 예측 결과
+│   └── prediction_results_threshold_0.52.csv  # 최종 필터링 결과
+</code>
+</pre>
+
 
 결과
 
